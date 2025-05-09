@@ -8,32 +8,31 @@
   overflow-x: hidden; /* previene desbordamiento scroll horizontal y espacio blanco */
 }
 
-.container-logo{
-    position: absolute;
-    
-    width: 40%;
-    height: 7%;
+.container-logo {
+  position: absolute;
 
-    margin-top: 20%;
-    margin-bottom: auto;
+  width: 40%;
+  height: 7vh;
+
+  margin-top: 20rem;
+  margin-bottom: auto;
 }
 
 .background-logo {
   position: absolute;
   background-color: black;
   width: 100%;
-  height: 100%;
-  opacity: 0.50;
+  height: 7vh;
+  opacity: 0.5;
 }
 
 .logo {
   position: absolute;
   color: white;
   font-size: 3em;
-  margin-left: 25%;
-    margin-right: auto;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+  margin-left: 4em;
+  margin-right: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .background-1 {
@@ -55,8 +54,8 @@
 
 /*Panel de frase motivacional*/
 .container-motivacional {
-  height: 40%;
-  padding-top: 40px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 /*Frase motivacional*/
@@ -72,8 +71,8 @@
 /*Panel de inicio sesion*/
 .container-sesion {
   background-color: white;
-  height: 30%;
   padding-top: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .titulo-sesion {
@@ -99,8 +98,13 @@
   margin-left: 10%;
 }
 
-.izquierda.input {
+.izquierda.input{
   margin-bottom: 1em;
+}
+
+.izquierda.input:hover{
+  border: 1px solid #83acff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Parte derecha del container  */
@@ -119,6 +123,10 @@
 }
 .derecha.input {
   margin-bottom: 1em;
+}
+.derecha.input:hover{
+  border: 1px solid #83acff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
@@ -140,6 +148,8 @@
   width: 200px;
   margin-bottom: 20px;
   margin-top: 35px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
 }
 
 /* link al final  */
