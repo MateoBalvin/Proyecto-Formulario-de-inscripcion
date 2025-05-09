@@ -1,86 +1,156 @@
 /*Foto palmera*/
-.formulario{
-    background-color: wheat;
-    display: flex;
-    width: 100%;
-    height: 750px;
+.formulario {
+  background-color: wheat;
+  display: flex;
+  width: 100%;
+  height: 100vh; /*estaba en 750px*/
+
+  overflow-x: hidden; /* previene desbordamiento scroll horizontal y espacio blanco */
 }
 
-.background-1{
+.container-logo{
+    position: absolute;
+    
     width: 40%;
-    height: 100%;
+    height: 7%;
+
+    margin-top: 20%;
+    margin-bottom: auto;
 }
-.foto-palmeras{
-    width:100%;
-    height: 100%;   
+
+.background-logo {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.50;
+}
+
+.logo {
+  position: absolute;
+  color: white;
+  font-size: 3em;
+  margin-left: 25%;
+    margin-right: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.background-1 {
+  width: 40%;
+  height: 100%;
+}
+.foto-palmeras {
+  width: 100%;
+  height: 100%;
 }
 
 /*---------------------------------------------------------------------------------------------------------*/
 /*Panel de la derecha blanco-gris*/
-.background-2{
-    background-color: rgb(235, 235, 235);
-    width: 60%;
-    height: 100%;      
+.background-2 {
+  background-color: rgb(235, 235, 235);
+  width: 60%;
+  height: 100%;
 }
 
 /*Panel de frase motivacional*/
-.container-motivacional{
-    background-color: aqua;
-    height: 40%;
-    padding-top: 40px;  
+.container-motivacional {
+  height: 40%;
+  padding-top: 40px;
 }
 
 /*Frase motivacional*/
-.frase-motivacional{
-    background-color: blanchedalmond;
-    width: 600px;
-    font-size: 25px;
-    margin-left: 50px;
-    margin-bottom: auto;
-    margin-top: 30px;
+.frase-motivacional {
+  width: 30em;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-bottom: auto;
+  margin-top: 30px;
 }
 
 /*--------------------------------------------------------------------------------------------------------*/
 /*Panel de inicio sesion*/
-.container-sesion{
-    background-color: rgb(255, 255, 255);  
-    height: 30%;
+.container-sesion {
+  background-color: white;
+  height: 30%;
+  padding-top: 1rem;
+}
 
+.titulo-sesion {
+  margin-left: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Parte izquierda del container */
+.lados-sesion {
+  height: 100%;
+
+  display: flex;
+}
+
+.izquierda-sesion {
+  height: 88%;
+  width: 40%;
+  height: 87.5%;
+}
+
+.izquierda {
+  margin-right: 100%;
+  margin-left: 10%;
+}
+
+.izquierda.input {
+  margin-bottom: 1em;
+}
+
+/* Parte derecha del container  */
+.derecha-sesion {
+  height: 87.5%;
+  width: 60%;
+}
+
+.derecha {
+  margin-right: 100%;
+  margin-left: 10%;
+}
+
+.derecha.label {
+  width: 15em;
+}
+.derecha.input {
+  margin-bottom: 1em;
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
 /*Panel de boton*/
-.container-final{
-    background-color: cornflowerblue;
-    height: 30%;
+.container-final {
+  height: 30%;
 }
-:root{
-    --colorverde: #596D48;
+:root {
+  --colorverde: #596d48;
 }
 
 /* boton */
-.boton1-final{
-    
-    color: white;
-    background-color: var(--colorverde);
-    border-color: transparent;
-    border-radius: 10px;
-    padding: 10px;
-    width: 200px;
-    margin-bottom: 20px;
-    margin-top: 35px;
+.boton1-final {
+  color: white;
+  background-color: var(--colorverde);
+  border-color: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 35px;
 }
 
 /* link al final  */
-.link-final{
-    color: var(--colorverde)
+.link-final {
+  color: var(--colorverde);
 }
 
 /* posicion del link y del boton  */
-.posicion-final{
-
-width: 400px;
-margin-right: auto;
-margin-left: 30px;
-margin-bottom: auto;
+.posicion-final {
+  width: 400px;
+  margin-right: auto;
+  margin-left: 30px;
+  margin-bottom: auto;
 }
