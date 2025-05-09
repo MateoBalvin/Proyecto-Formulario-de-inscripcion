@@ -1,0 +1,86 @@
+/*Foto palmera*/
+.formulario{
+    background-color: wheat;
+    display: flex;
+    width: 100%;
+    height: 750px;
+}
+
+.background-1{
+    width: 40%;
+    height: 100%;
+}
+.foto-palmeras{
+    width:100%;
+    height: 100%;   
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+/*Panel de la derecha blanco-gris*/
+.background-2{
+    background-color: rgb(235, 235, 235);
+    width: 60%;
+    height: 100%;      
+}
+
+/*Panel de frase motivacional*/
+.container-motivacional{
+    background-color: aqua;
+    height: 40%;
+    padding-top: 40px;  
+}
+
+/*Frase motivacional*/
+.frase-motivacional{
+    background-color: blanchedalmond;
+    width: 600px;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-bottom: auto;
+    margin-top: 30px;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*Panel de inicio sesion*/
+.container-sesion{
+    background-color: rgb(255, 255, 255);  
+    height: 30%;
+
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+/*Panel de boton*/
+.container-final{
+    background-color: cornflowerblue;
+    height: 30%;
+}
+:root{
+    --colorverde: #596D48;
+}
+
+/* boton */
+.boton1-final{
+    
+    color: white;
+    background-color: var(--colorverde);
+    border-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+/* link al final  */
+.link-final{
+    color: var(--colorverde)
+}
+
+/* posicion del link y del boton  */
+.posicion-final{
+
+width: 400px;
+margin-right: auto;
+margin-left: 30px;
+margin-bottom: auto;
+}
